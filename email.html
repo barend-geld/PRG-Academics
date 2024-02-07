@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Login</title>
+</head>
+<body>
+    <h1>Google Login Example</h1>
+
+    <!-- Include the Google Sign-In API script -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Create a div to hold the Google Sign-In button -->
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+    <script>
+        // Function called when Google Sign-In is successful
+        function onSignIn(googleUser) {
+            // Get user details
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do something with the user's ID
+            console.log('Name: ' + profile.getName()); // Do something with the user's name
+            console.log('Image URL: ' + profile.getImageUrl()); // Do something with the user's profile image URL
+            console.log('Email: ' + profile.getEmail()); // Do something with the user's email
+
+            // You can also get the Google ID token for server-side verification
+            var id_token = googleUser.getAuthResponse().id_token;
+            console.log('ID Token: ' + id_token);
+
+            // Add any additional logic you need after the user has signed in
+        }
+    </script>
+</body>
+</html>
