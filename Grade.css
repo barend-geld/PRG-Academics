@@ -174,7 +174,7 @@ body {
     margin: 10px;
     font-weight: 100;
       line-height: 25px;
-      font-size: 13px;
+      font-size: 14px;
       margin-bottom: 70px;
  }
  .CardP{
@@ -286,6 +286,7 @@ body {
     text-align: center;
     width: 100%;
     bottom: 2%;
+    font-size: 13px;
 }
 
  
@@ -504,8 +505,3 @@ body {
 }
     
 
-@media (max-width: 370px) {
-    .footerP{
-      font-size: 15px;
-    }
-  }

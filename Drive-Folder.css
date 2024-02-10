@@ -103,14 +103,14 @@ body{
 .frame{
     background: white;
     width: 445px;
-    height: 345px;
+    height: 400px;
     margin: auto;
     border-radius: 2%;  
 }
 
 iframe{
     
-    height: 345px;
+    height: 400px;
 }
 
 .navigation {
@@ -250,7 +250,7 @@ iframe{
 
     .frame{
     width: 305px;
-    height: 345px;
+    height: 400px;
     margin: auto;
     }
 }

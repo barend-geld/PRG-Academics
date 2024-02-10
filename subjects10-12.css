@@ -372,6 +372,7 @@ h5{
     text-align: center;
     width: 100%;
     bottom: 2%;
+    font-size: 14px;
 }
   
   
@@ -544,8 +545,8 @@ h5{
     } 
 }
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
     .footerP{
-      font-size: 15px;
+      font-size: 13px;
     }
   }
