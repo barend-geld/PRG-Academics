@@ -237,6 +237,22 @@ p{
     cursor: wait;
   }
 
+  footer {
+    position: relative;
+    height: 9px;
+    width: 100%;
+    
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    background-color: #c1c1c1;
+}
 
 
 @media (max-width: 1145px) {

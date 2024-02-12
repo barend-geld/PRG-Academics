@@ -366,13 +366,21 @@ h5{
     transition: opacity 0.5s ease-in 0.7s;
   }
  
-  .footer{
-    color: white;
-    position: absolute;
-    text-align: center;
+  footer {
+    position: relative;
+    height: 9px;
     width: 100%;
-    bottom: 18px;
-    font-size: 14px;
+    
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #000000;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    background-color: #ffffff;
 }
   
   

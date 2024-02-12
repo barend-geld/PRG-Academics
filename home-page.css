@@ -5,7 +5,10 @@
   font-family: 'poppins',sans-serif;
 }
 
-
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-psadding, 1rem);
+}
   
   .navigation {
     position: fixed;
@@ -84,10 +87,20 @@
 }
 
 body{
+    min-height: 100vh;  
+   
+}
+
+.banner{
     min-height: 100vh;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image14.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+
+    
 }
 .header{
     position: fixed;
@@ -231,20 +244,19 @@ body{
 
 footer {
     position: relative;
-    height: 30px;
+    height: 9px;
     width: 100%;
-    margin-top:650px;
     
 }
 
 p.copyright {
     position: absolute;
     width: 100%;
-    color: #fff;
+    color: #ffffff;
     line-height: 40px;
     font-size: 0.7em;
     text-align: center;
-    bottom:0;
+    background-color: #c1c1c1;
 }
 
   @media (max-width: 1145px) {
