@@ -227,13 +227,24 @@ body{
 
 
 
-.footer{
-    color: white;
-    position: absolute;
-    text-align: center;
+
+
+footer {
+    position: relative;
+    height: 30px;
     width: 100%;
-    bottom: 18px;
-    font-size: 14px;
+    margin-top:650px;
+    
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
 }
 
   @media (max-width: 1145px) {
